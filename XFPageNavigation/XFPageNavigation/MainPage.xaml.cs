@@ -36,6 +36,11 @@ namespace XFPageNavigation
             nav.Navigation.PushAsync(new SecondPage());
         }
 
+        /// <summary>
+        /// PushAsync from native
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void OnClickedPushAsyncFromNative(object sender, EventArgs e)
         {
             var navi = DependencyService.Get<INavi>();
